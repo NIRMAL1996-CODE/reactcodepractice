@@ -25,7 +25,13 @@ const App = () => {
       <input type="checkbox" checked className="accent-green-500 w-6 h-6"/>
       <input type="checkbox" checked className="accent-purple-500 w-6 h-6"/>
       </div>
-
+      <br />
+      <h1 className="text-4xl font-bold">4.Arbitrary Colors</h1>
+        {/*Meaning: Use your own custom color (not Tailwind’s default).Arbitrary colors let you use custom HEX, RGB, or HSL values directly in Tailwind classes using square brackets.
+          How: Use square brackets with HEX code
+          text-[#ff0000] (red text)
+          bg-[#00ff00] (green background) */}
+       <p className="text-[#ff0000] text-3xl text-center">Tailwindcss</p>
     </div>
   )
 }
