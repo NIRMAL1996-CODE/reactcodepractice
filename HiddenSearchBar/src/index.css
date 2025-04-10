@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+  background-color: rgb(207, 180, 228);
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
