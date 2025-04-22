@@ -1,12 +1,14 @@
-import Animate from "./components/Animate"
-import Drag from "./components/Drag"
-import Transition from "./components/transition"
+// import Animate from "./components/Animate"
+// import Drag from "./components/Drag"
+// import Transition from "./components/transition"
+import KeyFrames from "./components/KeyFrames"
 const App = () => {
   return (
     <div>
-      <Animate/>
+      {/* <Animate/>
       <Transition/>
-      <Drag/>
+      <Drag/> */}
+      <KeyFrames/>
     </div>
   )
 }
