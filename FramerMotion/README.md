@@ -17,3 +17,6 @@ You can animate border-radius in Framer Motion just like other properties.
 For example, starting with a 0% border-radius (which makes it a square), you can change it to 50% (creating a circle), and then return to 0% (square again). 
 This works with both absolute values (like 0%, 50%) or relative values (like "+=10%"). 
 The animation smoothly transitions between these values, just like rotate or scale.
+
+5. PulsingButton
+If you want to customize the transition for one property, you need to provide a custom transition for all properties that you're animating. Framer Motion doesn't allow nesting transitions for individual properties directly inside the transition object. Instead, you specify each property's transition individually within the same transition object.
