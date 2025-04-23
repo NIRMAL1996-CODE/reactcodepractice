@@ -2,17 +2,20 @@
 // import Drag from "./components/Drag"
 // import Transition from "./components/transition"
 // import KeyFrames from "./components/KeyFrames"
- import LoadingSpinner from "./components/LoadingSpinner"
-import PulsingButton from "./components/PulsingButton"
+// import LoadingSpinner from "./components/LoadingSpinner"
+// import PulsingButton from "./components/PulsingButton"
+import Gesture from "./components/Gesture";
 const App = () => {
   return (
     <div className="border-1 flex flex-col justify-center items-center">
        {/* <Animate/>
       <Transition/>
       <Drag/> 
-      <KeyFrames/> */}
+      <KeyFrames/> 
       <PulsingButton/>
-      <LoadingSpinner/>
+      <LoadingSpinner/>*/}
+
+      <Gesture/>
     </div>
   )
 };
