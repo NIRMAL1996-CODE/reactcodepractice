@@ -1,9 +1,11 @@
-import Animatedcard from "./Components/Animatedcard"
+// import Animatedcard from "./Components/Animatedcard"
+import ImageGallery from "./Components/ImageGallery"
 
 const App = () => {
   return (
     <div>
-      <Animatedcard/>
+      {/* <Animatedcard/> */}
+      <ImageGallery/>
     </div>
   )
 }
