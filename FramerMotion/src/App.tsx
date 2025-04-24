@@ -4,18 +4,19 @@
 // import KeyFrames from "./components/KeyFrames"
 // import LoadingSpinner from "./components/LoadingSpinner"
 // import PulsingButton from "./components/PulsingButton"
-import Gesture from "./components/Gesture";
+// import Gesture from "./components/Gesture";
+import AnimatedShape from "./components/AnimatedShape";
 const App = () => {
   return (
-    <div className="border-1 flex flex-col justify-center items-center">
+    <div className=" flex flex-col justify-center items-center">
        {/* <Animate/>
       <Transition/>
       <Drag/> 
       <KeyFrames/> 
       <PulsingButton/>
-      <LoadingSpinner/>*/}
-
-      <Gesture/>
+      <LoadingSpinner/>
+      <Gesture/>*/}
+      <AnimatedShape/>
     </div>
   )
 };
