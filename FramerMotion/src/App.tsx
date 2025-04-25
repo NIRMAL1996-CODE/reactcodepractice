@@ -7,7 +7,8 @@
 // import Gesture from "./components/Gesture";
 // import AnimatedShape from "./components/AnimatedShape";
 // import StaggerAnimation from "./components/ StaggerAnimation";
-import RangeSlider from "./components/Hooks";
+// import RangeSlider from "./components/Hooks";
+import UseTransformScroll from "./components/UseTransformScroll";
 const App = () => {
   return (
     <div className=" flex flex-col justify-center items-center">
@@ -19,8 +20,9 @@ const App = () => {
       <LoadingSpinner/>
       <Gesture/>
       <AnimatedShape/>
-      <StaggerAnimation/>*/}
-      <RangeSlider/>
+      <StaggerAnimation/>
+      <RangeSlider/>*/}
+      <UseTransformScroll/>
     </div>
   )
 };

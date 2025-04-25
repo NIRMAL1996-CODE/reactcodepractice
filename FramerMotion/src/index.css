@@ -12,10 +12,10 @@ body{
   height: 100vh;
   margin: 10px;
   padding: 10px;
- background-color: rgb(243, 243, 209);
+ background-color: rgb(255, 255, 255);
 }
 .box{
-  background-color: rgb(144, 89, 194);
+  background-color: rgb(51, 13, 87);
   margin: 10px;
   padding: 10px;
   width: 100px;
