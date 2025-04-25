@@ -6,7 +6,8 @@
 // import PulsingButton from "./components/PulsingButton"
 // import Gesture from "./components/Gesture";
 // import AnimatedShape from "./components/AnimatedShape";
-import StaggerAnimation from "./components/ StaggerAnimation";
+// import StaggerAnimation from "./components/ StaggerAnimation";
+import RangeSlider from "./components/Hooks";
 const App = () => {
   return (
     <div className=" flex flex-col justify-center items-center">
@@ -17,8 +18,9 @@ const App = () => {
       <PulsingButton/>
       <LoadingSpinner/>
       <Gesture/>
-      <AnimatedShape/>*/}
-      <StaggerAnimation/>
+      <AnimatedShape/>
+      <StaggerAnimation/>*/}
+      <RangeSlider/>
     </div>
   )
 };
