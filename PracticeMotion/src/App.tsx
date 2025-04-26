@@ -1,5 +1,6 @@
 import BoxAnimation from "./components/BoxAnimation"
 import CircleBounce from "./components/CircleBounce"
+import CombinedAnimation from "./components/CombinedAnimation"
 import RotationAnimation from "./components/RotationAnimation"
 import SkewedTransition from "./components/SkewedTransition"
 
@@ -10,6 +11,7 @@ const App = () => {
       <CircleBounce/>
       <RotationAnimation/>
       <SkewedTransition/>
+      <CombinedAnimation/>
     </div>
   )
 }
