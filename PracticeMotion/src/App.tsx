@@ -2,7 +2,8 @@
 // import CircleBounce from "./components/CircleBounce"
 // import CombinedAnimation from "./components/CombinedAnimation"
 // import FadeComponent from "./components/FadeComponent"
-import SideBar from "./components/SideBar"
+import ComplexAnimatedButton from "./components/ComplexAnimatedButton"
+// import SideBar from "./components/SideBar"
 // import RotationAnimation from "./components/RotationAnimation"
 // import SkewedTransition from "./components/SkewedTransition"
 
@@ -14,8 +15,9 @@ const App = () => {
       <RotationAnimation/>
       <SkewedTransition/>
       <CombinedAnimation/> 
-      <FadeComponent/>*/}
-      <SideBar/>
+      <FadeComponent/>
+      <SideBar/>*/}
+      <ComplexAnimatedButton/>
     </div>
   )
 }
