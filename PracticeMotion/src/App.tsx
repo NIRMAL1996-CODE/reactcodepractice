@@ -7,6 +7,7 @@ import ComplexAnimatedButton from "./components/ComplexAnimatedButton"
 // import RotationAnimation from "./components/RotationAnimation"
 // import SkewedTransition from "./components/SkewedTransition"
 
+
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
       <FadeComponent/>
       <SideBar/>*/}
       <ComplexAnimatedButton/>
+
     </div>
   )
 }
