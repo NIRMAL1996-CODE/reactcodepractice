@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html {
+  height: 100%;
+}
+body{
+  background-color: rgb(198, 223, 198);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
