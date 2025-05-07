@@ -1,7 +1,7 @@
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <div className="flex items-center justify-center text-5xl h-screen">Product</div>
   )
 }
 

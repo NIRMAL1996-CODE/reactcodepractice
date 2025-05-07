@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Header = () => {
   return (
     <div>
-      <div className="bg-blue-500 w-full h-[100px] flex items-center text-white text-2xl gap-190  p-2">
+      <div className="bg-blue-500 w-full h-[100px] flex items-center justify-between text-white text-2xl gap-20  p-2">
         <h1 className="text-2xl">Hello!</h1>
         <div className="flex gap-10">
           {/* <a className="text-2xl underline" href="/">Home</a>
@@ -20,4 +20,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

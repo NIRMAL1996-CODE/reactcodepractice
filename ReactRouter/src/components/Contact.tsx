@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="flex items-center justify-center text-5xl h-screen">Contact</div>
   )
 }
 
