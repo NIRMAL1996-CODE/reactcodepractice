@@ -1,10 +1,9 @@
-import { useState } from "react"
-
+import { useState } from "react";
 const Recipe = () => {
   const [name, setName] =useState("");
   const [ingredients, setIngredients] =useState("");
   const [instructions, setInstruction] =useState("");
-  
+
   return (
     <>
       <div className="w-[500px] h-[380px] gap-1 flex flex-col items-center m-1 p-1 rounded-lg shadow-lg bg-white">
@@ -40,10 +39,12 @@ const Recipe = () => {
         </div>
 
         <div className="flex justify-end items-center m-1 p-1 w-[450px] h-[100px] rounded bg-green-100">
-
+          <p className=" h-[90px] w-[350px] bg-amber-100"></p>
+        <div>
         <button className="rounded shadow-lg text-sm text-white m-1 mt-15 p-1 bg-blue-600 hover:bg-blue-400 cursor-pointer">Edit</button>
 
         <button className="rounded shadow-lg text-sm text-white m-1 mt-15 p-1 bg-red-600 hover:bg-red-400 cursor-pointer">Delete</button>
+        </div>
 
         </div>
       </div> 
