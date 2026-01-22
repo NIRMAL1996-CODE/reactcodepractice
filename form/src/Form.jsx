@@ -15,13 +15,13 @@ const Form = () => {
         <form onSubmit={handleSubmit(onSubmit)}>
           
           <label>UserName</label>
-          <input type="text" {...register("username")} />
+          <input type="text" placeholder="UserName" {...register("username")} />
 
           <label>Email</label>
-          <input type="email" {...register("email")} />
+          <input type="email" placeholder="Email" {...register("email")} />
 
           <label>Channel</label>
-          <input type="text" {...register("channel")} />
+          <input type="text" placeholder="Channel Name" {...register("channel")} />
 
           <button type="submit">Submit</button>
         </form>
