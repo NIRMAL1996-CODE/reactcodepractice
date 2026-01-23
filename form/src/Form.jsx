@@ -1,10 +1,14 @@
 import { useForm } from "react-hook-form";
 
 const Form = () => {
-  const { register, handleSubmit } = useForm();
+  const { 
+     register,
+     handleSubmit,
+     formState:{errors},
+     } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    console.log("Submitting the form",data);
   };
 
   return (
@@ -14,14 +18,29 @@ const Form = () => {
       <div className="main">
         <form onSubmit={handleSubmit(onSubmit)}>
           
-          <label>UserName</label>
-          <input type="text" placeholder="UserName" {...register("username")} />
+          <label>UserName:</label>
+          <input type="text" placeholder="UserName" {...register("username", {
+            required: true,
+            minLength: {value:3 , message: "min length atleast 3"},
+            maxLength: {value: 6, message: "max length atleast 6"}
+          })} />
+          {errors.username && <p>{errors.username.message}</p>}
 
-          <label>Email</label>
-          <input type="email" placeholder="Email" {...register("email")} />
+          <label>LastName:</label>
+          <input type="text" placeholder="LastName" {...register("lastname", {
+            required: true,
+            minLength: {value:3 , message: "min length atleast 3"},
+            maxLength: {value: 6, message: "max length atleast 6"}
+          })} />
+          {errors.lastname && <p>{errors.lastname.message}</p>}
 
-          <label>Channel</label>
-          <input type="text" placeholder="Channel Name" {...register("channel")} />
+          <label>Channel:</label>
+          <input type="text" placeholder="Channel Name" {...register("channel", {
+            required: true,
+            minLength: {value:3 , message: "min length atleast 3"},
+            maxLength: {value: 6, message: "max length atleast 6"}
+          })} />
+          {errors.channel && <p>{errors.channel.message}</p>}
 
           <button type="submit">Submit</button>
         </form>
