@@ -4,10 +4,12 @@ const Form = () => {
   const { 
      register,
      handleSubmit,
-     formState:{errors},
+     formState:{errors, isSubmitting},
      } = useForm();
 
-  const onSubmit = (data) => {
+ const  onSubmit = async (data) => {
+  await new Promise((resolve)=>
+    setTimeout(resolve,5000));
     console.log("Submitting the form",data);
   };
 
@@ -42,7 +44,7 @@ const Form = () => {
           })} />
           {errors.channel && <p>{errors.channel.message}</p>}
 
-          <button type="submit">Submit</button>
+          <input className="inputbtn" type="submit" disabled={isSubmitting} value={isSubmitting ? "submitting" : "submit"} />
         </form>
       </div>
     </div>

@@ -59,7 +59,7 @@ input:focus{
 }
 
 /* button */
-button{
+.inputbtn{
   width: 100%;
   padding: 10px;
   background-color: #ff7a18;
@@ -71,6 +71,6 @@ button{
 }
 
 /* button hover (mouse on it) */
-button:hover{
+.inputbtn:hover{
   background-color: #e66a10;
 }
